@@ -46,6 +46,8 @@ li a.title {
 
 
 body {
+    cursor: pointer;
+
     font-family: sans-serif;
     background-color: var(--itemtextActive);
     font-size: 11pt;
