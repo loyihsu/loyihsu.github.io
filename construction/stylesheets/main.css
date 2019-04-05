@@ -1,0 +1,61 @@
+
+#hello {
+    max-width: 95%;
+    background: url(../img/bg.svg) no-repeat top right;
+    color: #1C1C1C;
+    width: auto;
+    height: 88%;
+
+    line-height: 150%;
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#hi {
+    font-size: 100px;
+}
+
+#hiMsg {
+    background-color: #bec6ce;
+}
+
+#otherMsg {
+    background-color: #bec6ce;
+}
+
+#helloMsg {
+    max-width: 600px;
+    width: auto;
+    position: relative;
+    top: 55%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+#swipe {
+    text-align: center;
+    font-size: 12pt;
+    height:12%;
+
+    -webkit-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    #hello {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        background: none;
+    }
+    #helloMsg {
+        left: 0;
+        margin: auto;
+    }
+}
+
+h1 {
+    font-size: 45px;
+}
