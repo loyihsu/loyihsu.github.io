@@ -30,7 +30,7 @@
     width: auto;
     position: relative;
     top: 55%;
-    left: 20%;
+    left: 18.5%;
     transform: translateY(-50%);
 }
 
@@ -52,8 +52,11 @@
         background: none;
     }
     #helloMsg {
-        left: 0;
+        width:100%;
+        position:relative;
         margin: auto;
+        left: 5%;
+        transform: translate(-1.5%, -50%);
     }
 }
 
