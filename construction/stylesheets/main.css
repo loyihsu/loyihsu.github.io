@@ -22,11 +22,12 @@
 
 #hiMsg {
     background-color: #e4e9ee;
-    transition: color 0.55s ease-in-out;
-    transition: text-shadow 0.55s ease-in-out;
-
-    -webkit-transition: color 0.55s ease-in-out;
-    -webkit-transition: text-shadow 0.55s ease-in-out;
+    
+    transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+    
+    transition-property: text-shadow, color;
+    -webkit-transition-property: text-shadow, color;
 }
 
 #hiMsg:hover {  
