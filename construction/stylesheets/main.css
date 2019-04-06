@@ -81,36 +81,6 @@
     }
 }
 
-@media screen and (max-width: 667px) {
-    #ic-tiny {
-        display: block;
-        width:100px;
-        height:100px;
-    }
-    
-    #hello {
-        width: 100%;
-        text-align: center;
-        background: none;
-        line-height: 110%;
-    }
-
-    #hi {
-        font-size: 60px;
-    }
-
-    #helloMsg {
-        width:100%;
-        position:relative;
-        margin: auto;
-        left: 5%;
-
-        font-size: 24px;
-
-        transform: translate(-1.5%, -50%);
-    }
-}
-
 h1 {
     font-size: 45px;
 }
