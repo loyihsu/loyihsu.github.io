@@ -10,22 +10,8 @@
     box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
 }
 
-.tab {
-    color: #373C38;
-    font-size: 10pt;
-}
-
-.tabbie {
-    color: #373C38;
-    font-size: 9pt;
-}
-
 .sub {
     font-size: 10pt;
-}
-
-.pool {
-    line-height: 175%;
 }
 
 #logo {
@@ -42,22 +28,6 @@
 
     position: relative;
     top: -21px;
-}
-
-.highlightSkills {
-    background-color: #b9a3a3;
-    color: #FFFFFB;
-    border-radius: 25px;
-    font-size: 10.5pt;
-    padding: 2px 11px;
-}
-
-.skills {
-    background-color: #828282;
-    color: #FFFFFB;
-    border-radius: 25px;
-    font-size: 10.5pt;
-    padding: 2px 11px;
 }
 
 .container {

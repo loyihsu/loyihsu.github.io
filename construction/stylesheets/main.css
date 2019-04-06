@@ -2,6 +2,8 @@
 #hello {
     max-width: 95%;
     background: url(../img/bg.svg) no-repeat top right;
+    margin: auto;
+
     color: #1C1C1C;
     width: auto;
     height: 88%;
@@ -50,7 +52,7 @@
     
     position: relative;
     margin: auto;
-    transform: translateY(-25%);
+    transform: translateY(-30%);
 
     border-radius: 150px;
     border: 5px solid black;
@@ -61,7 +63,7 @@
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), screen and (max-height: 543px) {
     #ic-tiny {
         display: block;
     }
@@ -72,16 +74,44 @@
         font-size: 25px;
         background: none;
     }
+
+    #hi {
+        font-size: 90px;
+    }
+
     #helloMsg {
-        width:100%;
+        width:90%;
         position:relative;
         margin: auto;
-        left: 5%;
-        transform: translate(-1.5%, -50%);
+        top: 55%;
+        left: 0%;
+        transform: translateY(-45%);
+    }
+}
+
+@media screen and (max-width:400px), screen and (max-height: 543px) {
+    #ic-tiny {
+        display: none;
+    }
+}
+
+@media screen and (max-height:543px) {
+    #hi {
+        font-size: 60px;
+    }
+    #hello {
+        font-size: 20px;
+    }
+    #helloMsg {
+        transform: translateY(-40%);
+    }
+    #swipe {
+        padding-top: 0; 
     }
 }
 
 h1 {
     font-size: 45px;
+    text-align: center;
 }
 
