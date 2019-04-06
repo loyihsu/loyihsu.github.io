@@ -1,10 +1,13 @@
 .card {
     width: 100%;
-    max-width: 600px;
+    max-width: 550px;
     background-color: white;
     text-align: center;
     margin: auto;
     border-radius: 25px;
+
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
 }
 
 .tab {
@@ -30,7 +33,10 @@
     height: auto;
     
     border-radius: 150px;
-    box-shadow: 0 0 2px 1px var(--itemtextActive);
+    
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
+
     padding: 5px;
     background-color:white;
 
@@ -38,11 +44,19 @@
     top: -21px;
 }
 
+.highlightSkills {
+    background-color: #b9a3a3;
+    color: #FFFFFB;
+    border-radius: 25px;
+    font-size: 10.5pt;
+    padding: 2px 11px;
+}
+
 .skills {
     background-color: #828282;
     color: #FFFFFB;
     border-radius: 25px;
-    font-size: 10pt;
+    font-size: 10.5pt;
     padding: 2px 11px;
 }
 

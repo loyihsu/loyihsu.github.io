@@ -10,18 +10,20 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/about.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/element.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/debug.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
     <script src="javascript/navbar.js"></script>
     <script src="javascript/scroll.js"></script>
 </head>   
 <body>
     <ul>
-        <li><a class="title" onclick="showMenu()">Yu-Sung Hsu</a></li>
+        <li><a class="title" onclick="showMenu()">Yu-Sung Hsu<i style="float:right;" id="icbar" class="fas fa-bars"></i></a></li>
         <div id="menu">
             <li><a id="top" class="active" href="#l1" onclick="menuClicked(1)">Top</a></li>
             <li><a id="ab" href="#l2" onclick="menuClicked(2)">About</a></li>
             <li><a id="pr" href="#l3" onclick="menuClicked(3)">Experience</a></li>
             <li><a id="co" href="#l4" onclick="menuClicked(4)">Contact</a></li>
-            <li><a id="lwks" href="#l5" onclick="menuClicked(5)">Loyiworks</a></li>
         </div>
     </ul>
     <div id="hello">
@@ -42,13 +44,54 @@
             <div class="tab">Skills</div>
             <div class="pool">
                 <div class="tabbie">Programming Languages and Frameworks</div>
-                    <span class="skills">Swift</span> <span class="skills">C</span> <span class="skills">C++</span> <span class="skills">Objective C</span><br><span class="skills">Verilog</span> <span class="skills">HTML/CSS/JavaScript</span> <span class="skills">MeteorJS</span><br><span class="skills">PHP</span> <span class="skills">Python</span> <span class="skills">Go</span>
-            <div class="tabbie">Tools</div>
-                <span class="skills">iWork</span> <span class="skills">Office</span> <span class="skills">Creative Suite</span><br><span class="skills">Xcode</span> <span class="skills">VSCode</span> <span class="skills">Atom</span> <span class="skills">Code::Blocks</span>
-            <div class="tabbie">Operating Systems</div>
-                <span class="skills">macOS</span> <span class="skills">iOS</span> <span class="skills">watchOS</span><br><span class="skills">Windows</span> <span class="skills">Linux (Ubuntu)</span>
-            <div class="tabbie">Others</div>
-                <span class="skills">Photography</span> <span class="skills">Linguistics</span> <span class="skills">Translation</span><br><span class="skills">Literature</span> <span class="skills">Web App Development</span><br><span class="skills">Graphic Design</span><br><span class="skills">macOS/iOS App Development</span> 
+                <!--Skill List-->
+                <span class="highlightSkills">Swift</span> 
+                <span class="highlightSkills">C</span> 
+                <span class="highlightSkills">C++</span> 
+                <span class="highlightSkills">MeteorJS</span>
+                <br>
+                <span class="highlightSkills">HTML/CSS/JavaScript</span> 
+                <span class="skills">PHP</span>
+                <br>
+                <span class="skills">Verilog</span> 
+                <span class="skills">Objective C</span> 
+                <span class="skills">Python</span> 
+                <span class="skills">Go</span>
+                
+                <div class="tabbie">Tools</div>
+                <!--Tool List-->
+                <span class="highlightSkills">iWork</span> 
+                <span class="highlightSkills">Office</span> 
+                <span class="highlightSkills">Creative Suite</span> 
+                <span class="highlightSkills">Vim</span>
+                <br>
+                <span class="highlightSkills">Xcode</span> 
+                <span class="highlightSkills">VSCode</span> 
+                <span class="skills">Atom</span> 
+                <span class="skills">Code::Blocks</span>
+            
+                <div class="tabbie">Operating Systems</div>
+                <!--OS List-->
+                <span class="highlightSkills">macOS</span> 
+                <span class="highlightSkills">iOS</span> 
+                <span class="highlightSkills">watchOS</span>
+                <br>
+                <span class="skills">Windows</span> 
+                <span class="highlightSkills">Linux (Ubuntu)</span>
+            
+                <div class="tabbie">Others</div>
+                <!--Others-->
+                <span class="skills">Photography</span> 
+                <span class="skills">Linguistics</span> 
+                <span class="skills">Translation</span>
+                <br>
+                <span class="skills">Literature</span> 
+                <span class="highlightSkills">Web App Development</span>
+                <br>
+                <span class="highlightSkills">Graphic Design</span> 
+                <span class="highlightSkills">Event Planning</span>
+                <br>
+                <span class="highlightSkills">macOS/iOS App Development</span> 
             </div>
         <br><br>
         <div class="tab">Educational Background</div>
@@ -65,21 +108,59 @@
             <span class="skills">Mandarin <i>(native)</i></span> <span class="skills">English <i>(fluent)</i></span><br><span class="skills">Japanese <i>(excellent)</i></span> <span class="skills">Spanish <i>(good)</i></span>
     </div> 
     <br><br>
-    <div id="projects" class="container testing">
+    <div id="projects" class="container">
         <h1>Experience</h1>
+        
+        <span class="tab">Work</span><br>
+        <!--Draft-->
+        Indie Swift Developer (macOS and iOS) (2016 — present)<!--Link to my Product Page--><br>
+        Assistant English Teacher @SIGMA Academy for University Admission (2015 — January 2018)
+        <br><br>
+        
+        <span class="tab">Events</span><br>
+        <!--Draft-->
+        Event General Coordinator @NTHU FLL Senior Play of 2018<br>
+        Director of Promotion Team @NTHU FLL Student Association<br>
+        Director of Internet Publicity Section @NTHU FLL Camp<br>
+        Director of Artistic Design Team @Yue-han Award in Literature Department of Chinese Literature<br>
+        <span class="tabbie">(*NTHU FLL stands for Department of Foreign Langugaes and Literature of National Tsing Hua University)</span>
+        <br><br>
+
+        <span class="tab">Projects</span><br>
+        Loyiworks<!--Link to Loyiworks--><br>
+        Official Website of 29th Yuehan Award in Literature<br>
+        <span class="tabbie">Open Source</span><br>
+        loyihsu @GitHub<br>
+        Data Structure in Swift @GitHub<br>
+        <span class="tabbie">Selected Research/Term Paper</span><br>
+        Transphobia<br>
+        Discourse Analysis<br>
+        <span class="tabbie">Term Project</span><br>
+        Final Project of Basic Linguistic Web Application Development
+        <br><br>
+        <span class="tab">List of Important Courses Taken</span><br>
+        <span class="tabbie">Linguistics</span><br>
+        Phonetics<br>
+        Semantics<br>
+        <span class="tabbie">Computer Science</span><br>
+        Digital Logic Design<br>
+        Data Structure<br>
+        Design and Analysis of Algorithms<br>
+        <span class="tabbie">Applied Linguistics</span><br>
+        Varieties of English<br>
+        Discourse Analysis and Language Education<br>
+        Basic Linguistic Web Application Development<br>
+
+
     </div>
     <br><br>
     <div id="contacts" class="container testing">
         <h1>Contact</h1>
     </div>
 
-    <div id="lwksRedt" class="container testing">
-        <h1>Loyiworks</h1>
-    </div>
-    
     <div id="info" class="container">
         <b>Yu-Sung Hsu</b><br>
-        Made from scratch by me.
+        Made with lots of code and time by me.
         <!--Links to social media.-->
     </div>
 

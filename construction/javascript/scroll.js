@@ -7,14 +7,13 @@ window.addEventListener("scroll", function (event) {
     var about = document.getElementById("about");
     var projects = document.getElementById("projects");
     var contacts = document.getElementById("contacts");
-    var loyiworks = document.getElementById("lwksRedt");
 
-    var abtColor = "#D7C4BB";
-    var proColor = "#bec6ce";
+    var topColor = "#e4e9ee";
+    var abtColor = "#FCFAF2";
+
+    var proColor = "#e4e9ee";
     var cotColor = "#ffffff";
-    var lwksColor = "#bec6ce";
-    var topColor = "#bec6ce";
-
+  
     var color = "";
 
     if (scroll < learnMore.offsetTop/2) {
@@ -23,10 +22,7 @@ window.addEventListener("scroll", function (event) {
         learnMore.style.opacity = 0;
     }
 
-    if (scroll > loyiworks.offsetTop - 200) {
-        currentTab("lwks");
-        color = lwksColor;
-    } else if (scroll > contacts.offsetTop - 200) {
+    if (scroll > contacts.offsetTop - 200) {
         currentTab("co");
         color = cotColor;
     } else if (scroll > projects.offsetTop - 200) {
@@ -46,10 +42,9 @@ function currentTab(tab) {
     var bar_ab = document.getElementById("ab");
     var bar_pr = document.getElementById("pr");
     var bar_co = document.getElementById("co");
-    var bar_lwks = document.getElementById("lwks");
     var bar_top = document.getElementById("top");
 
-    var bar = [bar_ab, bar_pr, bar_co, bar_lwks, bar_top];
+    var bar = [bar_ab, bar_pr, bar_co, bar_top];
 
     for (i = 0 ; i < bar.length ; i++) {
         if (tab == bar[i].id) {

@@ -4,7 +4,7 @@
 	 viewBox="0 0 2048 2048" style="enable-background:new 0 0 2048 2048;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;fill:#FDEBEE;}
-	.st1{fill:#BEC6CE; opacity:0;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#BEC6CE;fill-opacity:0;}
 	.st2{fill:#212120;}
 	.st3{fill:#ECBA9E;}
 	.st4{fill:#F6C2A1;}
@@ -15,7 +15,7 @@
 	.st9{fill:#3A484F;}
 	.st10{fill:#ECAB46;}
 	.st11{fill:#101728;}
-	.st12{fill:#BEC6CE;}
+	.st12{fill:#E4E9EE;}
 	.st13{fill:#EDE5DE;}
 </style>
 <rect x="-43.7" y="-30.3" class="st0" width="2153.7" height="2153.7"/>
