@@ -1,5 +1,6 @@
 
 #hello {
+    cursor: default;
     max-width: 95%;
     background: url(../img/bg.svg) no-repeat top right;
     margin: auto;
@@ -19,9 +20,22 @@
     font-size: 100px;
 }
 
+
 #hiMsg {
     background-color: #e4e9ee;
+    transition: all 0.55s ease-in-out;
 }
+
+#hiMsg:hover {  
+
+    color: gold;
+        text-shadow: 0 0 20px goldenrod,
+                     0 0 30px white,
+                     0 0 40px gold,
+                     0 0 60px white;
+}
+
+
 
 #otherMsg {
     background-color: #e4e9ee;
@@ -37,6 +51,8 @@
 }
 
 #swipe {
+    cursor: default;
+
     text-align: center;
     font-size: 12pt;
     height:10%;
