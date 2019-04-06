@@ -64,15 +64,15 @@
 }
 
 #ic-tiny {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     
     position: relative;
     margin: auto;
     transform: translateY(-30%);
 
-    border-radius: 150px;
-    border: 5px solid black;
+    border-radius: 300px;
+    border: 10px solid black;
 
     background: url(../img/ic.svg) no-repeat;
     background-size: 100% 100%;
@@ -80,7 +80,7 @@
     display: none;
 }
 
-@media screen and (max-width: 768px), screen and (max-height: 543px) {
+@media screen and (max-width: 768px), screen and (max-height: 700px) {
     #ic-tiny {
         display: block;
     }
@@ -103,6 +103,15 @@
         top: 55%;
         left: 0%;
         transform: translateY(-45%);
+    }
+}
+
+@media screen and (max-height:768px) {
+    #ic-tiny {
+        width: 175px;
+       height: 175px;
+
+       border: 7px solid black;
     }
 }
 
