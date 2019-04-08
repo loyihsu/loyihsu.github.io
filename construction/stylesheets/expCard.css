@@ -1,0 +1,26 @@
+.expCard {
+    cursor: default;
+    width: auto;
+    max-width: 550px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
+
+    margin-bottom: 9px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.spCard:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px goldenrod;
+}
+
+.spCard {
+    transition: box-shadow 0.55s ease-in-out;
+}
