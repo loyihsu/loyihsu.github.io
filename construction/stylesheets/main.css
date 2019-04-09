@@ -1,6 +1,7 @@
 #hello {
     cursor: default;
-    max-width: 95%;
+    width: 95%;
+    max-width: 1300px;
     background: url(../img/bg.svg) no-repeat top right;
     margin: auto;
 

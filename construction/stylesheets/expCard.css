@@ -26,13 +26,13 @@
 }
 
 .spCard {
-    transition: box-shadow 0.55s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
 }
 
 .spCard .fa-link {
     padding-left: 6px;  
     display: inline-block;
-    transition: color 0.55s ease-in-out;
+    transition: color 0.4s ease-in-out;
 }
 
 .spCard:hover .fa-link {
