@@ -9,25 +9,28 @@
 
     cursor: pointer;
 
-    transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out;
+    transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
 }
 
 .twink-contact:hover {
-    opacity: 0.2;
+    /*opacity: 0.35;*/
+
+    background-color: black;
+    color: white;
 }
 
-a {
+#contacts a {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+#contacts a:hover {
     text-decoration: none;
     color: black;
 }
 
-a:visited {
+#contacts a:visited {
     text-decoration: none;
     color: black;
 }
