@@ -1,4 +1,3 @@
-
 #hello {
     cursor: default;
     max-width: 95%;
@@ -61,6 +60,27 @@
 
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
+}
+
+#ic-site {
+     width: 95px;
+    height: 95px;
+
+    margin: auto;
+
+    border-radius: 100px;
+    border: 3.5px solid black;
+
+    background: url(../img/ic.svg) no-repeat;
+    background-size: 100% 100%;
+
+    transition: all 0.25s ease-in-out;
+}
+
+#ic-site:hover {
+    background-color: gold;
+    border-color: gold;
+    box-shadow: 0 0 5px 5px rgba(255, 183, 0, 0.4);
 }
 
 #ic-tiny {
@@ -141,3 +161,8 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 30px;
+    text-emphasis: center;
+    line-height: 150%;
+}
