@@ -1,0 +1,80 @@
+/* Experience Card */
+
+.excard {
+    cursor: default;
+    width: auto;
+    max-width: 550px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
+
+    margin-bottom: 9px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.excard .fa-link {
+    display: none;
+}
+
+.excard.sp:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px goldenrod;
+}
+
+.excard.sp {
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.excard.sp .fa-link {
+    padding-left: 6px;  
+    display: inline-block;
+    transition: color 0.4s ease-in-out;
+}
+
+.excard.sp:hover .fa-link {
+    color: goldenrod;
+}
+
+/* Educational Cards */
+
+.card {
+    width: auto;
+    max-width: 550px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
+    
+    padding-bottom: 24px;
+}
+
+.card #logo:hover {
+    box-shadow: 0 0 2px 2px rgba(127, 16, 132, 0.4);
+}
+
+.card #logo {
+    width: 150px;
+    height: auto;
+    
+    border-radius: 150px;
+    
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 2px 2px rgba(189, 192, 186, 0.2);
+
+    padding: 5px;
+    background-color:white;
+
+    position: relative;
+    top: -21px;
+
+    transition: box-shadow 0.55s ease-in-out;
+}

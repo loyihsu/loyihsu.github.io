@@ -1,0 +1,47 @@
+/* Basics */
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-emphasis: center;
+    line-height: 150%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--itemtextActive);
+
+    -webkit-transition: background-color 0.5s linear;
+    transition: background-color 0.5s linear;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Elements */
+
+.sub {
+    font-size: 10pt;
+}
+
+.container {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    max-width: 610px;
+    line-height: 150%;
+}
+
+.tab {
+    color: #373C38;
+    font-size: 10pt;
+}
+
+.tabbie {
+    color: #373C38;
+    font-size: 9pt;
+}

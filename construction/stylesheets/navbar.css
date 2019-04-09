@@ -49,18 +49,6 @@ li a.title {
     color: var(--itemtextActive);
 }
 
-
-body {
-    font-family: sans-serif;
-    background-color: var(--itemtextActive);
-
-    -webkit-transition: background-color 0.5s linear;
-    transition: background-color 0.5s linear;
-
-    -webkit-user-select: none;
-    user-select: none;
-}
-
 #icbar {
     display: none;
 }

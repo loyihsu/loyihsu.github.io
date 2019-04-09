@@ -1,0 +1,66 @@
+/* Site Icon */
+
+#ic-site {
+     width: 95px;
+    height: 95px;
+
+    margin: auto;
+
+    border-radius: 100px;
+    border: 3.5px solid black;
+
+    background: url(../img/ic.svg) no-repeat;
+    background-size: 100% 100%;
+
+    transition: all 0.25s ease-in-out;
+}
+
+#ic-site:hover {
+    background-color: gold;
+    border-color: gold;
+    box-shadow: 0 0 5px 5px rgba(255, 183, 0, 0.4);
+}
+
+/* Tiny Icon */
+
+#ic-tiny {
+    width: 250px;
+    height: 250px;
+    
+    position: relative;
+    margin: auto;
+    transform: translateY(-30%);
+
+    border-radius: 300px;
+    border: 10px solid black;
+
+    background: url(../img/ic.svg) no-repeat;
+    background-size: 100% 100%;
+    
+    display: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px), screen and (max-height: 700px) {
+    #ic-tiny {
+        display: block;
+    }
+}
+
+@media screen and (max-height:768px) {
+    #ic-tiny {
+        width: 175px;
+       height: 175px;
+
+       border: 7px solid black;
+    }
+}
+
+@media screen and (max-width:400px), screen and (max-height: 543px) {
+    #ic-tiny {
+        display: none;
+    }
+}
+
+

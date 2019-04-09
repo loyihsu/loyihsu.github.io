@@ -83,5 +83,5 @@ function menuClicked(ind) {
         element = document.getElementById("lwksRedt");
     }
 
-    scrollTo(document.body, element.offsetTop-120, 100);
+    scrollTo(document.body, element.offsetTop-120, 150);
 }

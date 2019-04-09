@@ -1,20 +1,4 @@
-.tab {
-    color: #373C38;
-    font-size: 10pt;
-}
-
-.tabbie {
-    color: #373C38;
-    font-size: 9pt;
-}
-
-.highlightSkills {
-    background-color: #b9a3a3;
-    color: #FFFFFB;
-    border-radius: 25px;
-    font-size: 10.5pt;
-    padding: 2px 11px;
-}
+/* Skills */
 
 .skills {
     background-color: #828282;
@@ -24,25 +8,7 @@
     padding: 2px 11px;
 }
 
-@media screen and (max-width: 768px) {
-    ul li {float: none;}
-    li a.title {
-        padding: 14px 25px;
-        pointer-events: all;
-    }
-    #menu {
-        display: none;
-    }
-    #icbar {
-        display: block;
-    }
-
-    .pool {
-        line-height: 175%;
-     }
-     .col {
-         float: none;
-         width: 100%;
-     }
-
+.skills.highlighted {
+    background-color: #b9a3a3;
 }
+
