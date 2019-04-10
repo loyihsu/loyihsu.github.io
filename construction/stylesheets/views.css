@@ -65,45 +65,6 @@
     transition: opacity 0.5s ease-in-out;
 }
 
-/* Responsive */
-
-@media screen and (max-height:543px) {
-    #hi {
-        font-size: 60px;
-    }
-    #hello {
-        font-size: 20px;
-    }
-    #helloMsg {
-        transform: translateY(-40%);
-    }
-    #swipe {
-        padding-top: 0; 
-    }
-}
-
-@media screen and (max-width: 768px), screen and (max-height: 700px) {    
-    #hello {
-        width: 100%;
-        text-align: center;
-        font-size: 25px;
-        background: none;
-    }
-
-    #hi {
-        font-size: 90px;
-    }
-
-    #helloMsg {
-        width:90%;
-        position:relative;
-        margin: auto;
-        top: 55%;
-        left: 0%;
-        transform: translateY(-45%);
-    }
-}
-
 /* About View */
 #about {
     color: #1C1C1C;

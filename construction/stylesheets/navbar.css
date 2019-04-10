@@ -53,16 +53,3 @@ li a.title {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-    ul li {float: none;}
-    li a.title {
-        padding: 14px 25px;
-        pointer-events: all;
-    }
-    #menu {
-        display: none;
-    }
-    #icbar {
-        display: block;
-    }
-} 
