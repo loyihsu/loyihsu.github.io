@@ -22,6 +22,10 @@
         left: 0%;
         transform: translateY(-45%);
     }
+
+    .procard {
+        flex: 100%;
+    }
 }
 
 @media screen and (max-height:800px) {

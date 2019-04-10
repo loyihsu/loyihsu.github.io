@@ -31,15 +31,35 @@
     transition: box-shadow 0.4s ease-in-out;
 }
 
-.excard.sp .fa-link {
-    padding-left: 6px;  
-    display: inline-block;
+.excard.sp #cardtitle {
+    color: #1c1c1c;
     transition: color 0.4s ease-in-out;
 }
 
-.excard.sp:hover .fa-link {
+.excard.sp:hover #cardtitle {
     color: goldenrod;
 }
+
+.excard.sp .fa-link {
+    background-color: #1C1C1C;
+    color: white;
+
+    font-size: 13px;
+    width: 13px;
+    height: 13px;
+
+    border-radius: 100px;
+    padding: 8px;
+    margin-bottom: 12px;
+
+    display: inline-block;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.excard.sp:hover .fa-link {
+    background-color: goldenrod;
+}
+
 
 /* Educational Cards */
 
@@ -77,4 +97,76 @@
     top: -21px;
 
     transition: box-shadow 0.55s ease-in-out;
+}
+
+/* Project Cards */
+
+.procard {
+    max-width: 550px;
+    background-color: white;
+
+    border-radius: 25px;
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    position: relative;
+
+    margin: auto;
+    margin-bottom: 6px;
+    cursor: default;
+}
+
+.procard .fa-link {
+    display: none;
+}
+
+.procard.sp {
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.procard.sp:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px goldenrod;
+}
+
+.procard.sp .fa-link {
+    background-color: #1C1C1C;
+    color: white;
+
+    font-size: 13px;
+    width: 13px;
+    height: 13px;
+
+    border-radius: 100px;
+    padding: 8px;
+    margin-bottom: 12px;
+
+    display: inline-block;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.procard.sp:hover .fa-link {
+    background-color: goldenrod;
+}
+
+.procard.sp #cardtitle {
+    color: #1c1c1c;
+    transition: color 0.4s ease-in-out;
+}
+
+.procard.sp:hover #cardtitle {
+    color: goldenrod;
+}
+
+.cardlink {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.cardlink:hover {
+    text-decoration: none;
+    color: #1c1c1c;
 }
