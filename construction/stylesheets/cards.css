@@ -1,166 +1,101 @@
-/* Experience Card */
-
-.excard {
+/* Basic Cards */
+.card {
     cursor: default;
     width: auto;
     max-width: 550px;
-    background-color: white;
     text-align: center;
+    background-color: white;
     margin: auto;
-    border-radius: 25px;
-
-    border: 1px solid rgba(120, 120, 120, 0.25);
-    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
-
-    margin-bottom: 9px;
-
     padding-top: 24px;
     padding-bottom: 24px;
+    border-radius: 25px;
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    box-shadow: 0 0 2px 2px rgba(189, 192, 186, 0.2);
 }
 
-.excard .fa-link {
-    display: none;
+.card.sp {
+    transition: all 0.4s ease-in-out;
 }
 
-.excard.sp:hover {
+.card.sp:hover {
     cursor: pointer;
-    box-shadow: 0 0 1px 1px goldenrod;
+    border: 1px solid rgba(79, 79, 72, 0.3);
+    box-shadow: 0 0 2px 2px rgba(79, 79, 72, 0.3);
 }
 
-.excard.sp {
-    transition: box-shadow 0.4s ease-in-out;
-}
-
-.excard.sp #cardtitle {
+.card.sp #cardtitle {
     color: #1c1c1c;
     transition: color 0.4s ease-in-out;
 }
 
-.excard.sp:hover #cardtitle {
-    color: goldenrod;
+.card.sp:hover #cardtitle {
+    color: #4F4F48;
 }
 
-.excard.sp .fa-link {
-    background-color: #1C1C1C;
-    color: white;
+.card.sp .sub.twink {
+    transition: color 0.4s ease-in-out;
+}
 
+.card.sp:hover .sub.twink {
+    color: #4F4F48;
+}
+
+/* fa-link */
+.card .fa-link {
+    display: none;
+}
+
+.card.sp .fa-link {
+    display: inline-block;
+    color: white;
+    background-color: #1c1c1c;
     font-size: 13px;
     width: 13px;
     height: 13px;
-
     border-radius: 100px;
     padding: 8px;
     margin-bottom: 12px;
-
-    display: inline-block;
     transition: background-color 0.4s ease-in-out;
 }
 
-.excard.sp:hover .fa-link {
-    background-color: goldenrod;
+.card.sp:hover .fa-link {
+    background-color: #4f4f48;
 }
 
-
-/* Educational Cards */
-
-.card {
-    width: auto;
-    max-width: 550px;
-    background-color: white;
-    text-align: center;
-    margin: auto;
-    border-radius: 25px;
-
-    border: 1px solid rgba(120, 120, 120, 0.25);
-    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
-    
-    padding-bottom: 24px;
+/* - Educational Cards */
+.card.ed {
+    padding-top: 0px;
 }
 
-.card #logo:hover {
-    box-shadow: 0 0 2px 2px rgba(127, 16, 132, 0.4);
-}
-
-.card #logo {
+/* Logo */
+.card.ed #logo {
     width: 150px;
-    height: auto;
-    
+    height: auto;    
+    background-color:white;
     border-radius: 150px;
-    
     border: 1px solid rgba(120, 120, 120, 0.25);
     box-shadow: 0 0 2px 2px rgba(189, 192, 186, 0.2);
-
     padding: 5px;
-    background-color:white;
-
     position: relative;
     top: -21px;
-
     transition: box-shadow 0.55s ease-in-out;
 }
 
-/* Project Cards */
-
-.procard {
-    max-width: 550px;
-    background-color: white;
-
-    border-radius: 25px;
-    border: 1px solid rgba(120, 120, 120, 0.25);
-    box-shadow: 0 0 1px 1px rgba(189, 192, 186, 0.1);
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-
-    position: relative;
-
-    margin: auto;
-    margin-bottom: 6px;
-    cursor: default;
+.card.ed #logo:hover {
+    box-shadow: 0 0 2px 2px rgba(127, 16, 132, 0.4);
 }
 
-.procard .fa-link {
-    display: none;
+/* - Experience Card */
+.card.ex {
+    margin-bottom: 9px;
 }
 
-.procard.sp {
-    transition: box-shadow 0.4s ease-in-out;
+/* - Project Cards */
+.card.pro {
+    margin-bottom: 6px;    
 }
 
-.procard.sp:hover {
-    cursor: pointer;
-    box-shadow: 0 0 1px 1px goldenrod;
-}
-
-.procard.sp .fa-link {
-    background-color: #1C1C1C;
-    color: white;
-
-    font-size: 13px;
-    width: 13px;
-    height: 13px;
-
-    border-radius: 100px;
-    padding: 8px;
-    margin-bottom: 12px;
-
-    display: inline-block;
-    transition: background-color 0.4s ease-in-out;
-}
-
-.procard.sp:hover .fa-link {
-    background-color: goldenrod;
-}
-
-.procard.sp #cardtitle {
-    color: #1c1c1c;
-    transition: color 0.4s ease-in-out;
-}
-
-.procard.sp:hover #cardtitle {
-    color: goldenrod;
-}
-
+/* Cardlink */
 .cardlink {
     text-decoration: none;
     color: #1c1c1c;
