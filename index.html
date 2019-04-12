@@ -1,27 +1,291 @@
 <html>
 <head>
-    <title>Yu-Sung Hsu</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/construction/img/icon.jpg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Sung Hsu: Hi!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon.jpg">
+    <!-- - Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Social media-->
+    <meta property="og:title" content="Yu-Sung Hsu: Hi!">
+    <meta property="og:image" content="img/preview.jpg">
+    <meta property="og:description" content="The website that tells you about Yu-Sung Hsu (Loyi)." />
+    <meta name="twitter:title" content="Yu-Sung Hsu: Hi!" />
+    <meta name="twitter:description" content="The website that tells you about Yu-Sung Hsu (Loyi)." />
+    <meta name="twitter:image" content="img/preview.jpg" />
+    <!-- - Stylesheets-->
+    <!-- Custom -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/cards.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/icons.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-    
+    <link rel="stylesheet" type="text/css" href="stylesheets/site.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/skills.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/views.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+    <!-- Third Party -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
     <script src="javascript/navbar.js"></script>
+    <script src="javascript/scroll.js"></script>
 </head>   
 <body>
     <ul>
-        <li><a class="title" onclick="showMenu()">Yu-Sung Hsu</a></li>
+        <li><a class="title" onclick="showMenu()">Yu-Sung Hsu<i style="float:right;" id="icbar" class="fas fa-bars"></i></a></li>
         <div id="menu">
-            <li><a id="top" href="#l1">Top</a></li>
-            <li><a id="ab" href="#l2">About</a></li>
-            <li><a id="pr" href="#l3">Experience</a></li>
-            <li><a id="co" href="#l4">Contact</a></li>
-            <li><a id="lwks" href="#l5">Loyiworks</a></li>
+            <li><a id="top" class="active" href="#l1" onclick="menuClicked(1)">Top</a></li>
+            <li><a id="ab" href="#l2" onclick="menuClicked(2)">About</a></li>
+            <li><a id="pr" href="#l3" onclick="menuClicked(3)">Experience</a></li>
+            <li><a id="co" href="#l4" onclick="menuClicked(4)">Contact</a></li>
         </div>
     </ul>
     <div id="hello">
-        Under construction.<br>
-        Please come back when it's ready.
+        <div id="helloMsg">
+            <div id="ic-tiny"></div>
+            <div id="hi">
+                <span id="hiMsg">Hi!</span>
+            </div
+            ><br>
+            <span id="otherMsg">I am Yu-Sung Hsu, a.k.a. Loyi Hsu.
+                <br><br>
+                I am a Taiwan-based Swift developer, a designer, and an English-Mandarin translator.
+            </span>
+        </div>
+    </div>
+
+    <div id="swipe">
+        Learn more<br>↓
+    </div>
+
+    <div id="about" class="container">
+        <h1>About</h1>
+        <br>
+            <div class="tab">Summary</div>
+            As an indie macOS and iOS developer, I create intuitive, useful apps that my customers and I would love.
+            <br><br>
+            
+            <div class="tab">Skills</div>
+            <span class="skills highlighted">macOS/iOS App Development</span><br>
+            <span class="skills highlighted">Web App Development</span> 
+            <span class="skills highlighted">Graphic Design</span><br>
+
+            <div class="tabbie">Programming Languages and Frameworks</div>
+            <span class="skills highlighted">Swift</span> 
+            <span class="skills highlighted">C</span> 
+            <span class="skills highlighted">C++</span> 
+            <span class="skills highlighted">MeteorJS</span>
+            <br>
+            <span class="skills highlighted">HTML/CSS/JavaScript</span> 
+            <span class="skills">ElectronJS</span>
+            <span class="skills">PHP</span>
+            <br>
+            <span class="skills">Verilog</span> 
+            <span class="skills">Objective C</span> 
+            <span class="skills">Python</span> 
+            <span class="skills">Go</span>
+            
+            <div class="tabbie">Tools</div>
+            <span class="skills highlighted">iWork</span> 
+            <span class="skills highlighted">Office</span> 
+            <span class="skills highlighted">Creative Suite</span> 
+            <span class="skills highlighted">Vim</span>
+            <br>
+            <span class="skills highlighted">Xcode</span> 
+            <span class="skills highlighted">VSCode</span> 
+            <span class="skills">Atom</span> 
+            <span class="skills">Code::Blocks</span>
+            <br>
+            
+            <div class="tabbie">Operating Systems</div>
+            <span class="skills highlighted">macOS</span> 
+            <span class="skills highlighted">iOS</span> 
+            <span class="skills highlighted">watchOS</span>
+            <br>
+            <span class="skills highlighted">Linux (Ubuntu)</span> 
+            <span class="skills">Windows</span>
+            <br>
+            
+            <div class="tabbie">Others</div>
+            <span class="skills highlighted">Event Planning</span>
+            <br>
+            <span class="skills highlighted">Video Editing</span>
+            <span class="skills">Photography</span>
+            <br>
+            <span class="skills">Linguistics</span> 
+            <span class="skills">Copywriting</span>
+            <br>
+            <span class="skills">Literature</span> 
+            <span class="skills">Translation</span>
+            <span class="skills">Music Making</span>
+        <br><br>
+        <div class="tab">Educational Background</div>
+        <br>
+        <div class="card ed">
+            <img src="img/nthu.jpg" id="logo"><br>
+            <b>National Tsing Hua University</b><br>
+            Bachelor of Arts<br>in Foreign Languages and Literature
+            <div class="sub"><i>with a minor in Computer Science</i></div>
+            <br>
+            <div class="tab">Highlighted Skills</div>
+            <span class="skills">Linguistics</span> 
+            <span class="skills">Literature</span>
+            <br>
+            <span class="skills highlighted">C</span> 
+            <span class="skills highlighted">C++</span>
+            <span class="skills highlighted">MeteorJS</span>
+            
+        </div>
+        <br><br>
+        <div class="tab">Natural Languages</div>
+            <span class="skills highlighted">Mandarin <i>(native)</i></span> 
+            <span class="skills highlighted">English <i>(fluent)</i></span>
+            <br>
+            <span class="skills">Japanese <i>(excellent)</i></span> 
+            <span class="skills">Spanish <i>(good)</i></span>
+    </div>
+    <br><br>
+    <div id="projects" class="container">
+        <h1>Experience</h1>
+        <span class="tab">Work</span><br>
+        <div style="line-height:40%;">
+            <br>
+        </div>
+        <a class="cardlink" href="https://itunes.apple.com/developer/yu-sung-hsu/id1091998500">
+            <div class="card ex sp">
+                <div id="link"><i class="fas fa-link"></i></div>
+                <b id="cardtitle">Indie Swift Developer</b><br>
+                <div class="sub twink">Developing apps for macOS and iOS platforms.</div>
+                <div class="sub twink"><i>2016 — <b><u>present</u></b></i></div>
+                <br>
+                <div class="tab">Highlighted Skills</div>
+                <span class="skills highlighted">macOS/iOS App Development</span><br>
+                <span class="skills highlighted">Swift</span> 
+                <span class="skills highlighted">Xcode</span>  
+                <span class="skills highlighted">macOS</span><br>
+                <span class="skills highlighted">iOS</span> 
+                <span class="skills">Objective C</span>
+                <!--Link to my Product Page-->
+            </div>
+        </a>
+        <div class="card ex">
+            <div id="link"><i class="fas fa-link"></i></div>
+            <b id="cardtitle">Assistant English Teacher</b><br>
+            <div class="sub">@SIGMA Academy for University Admission</div>
+            <div class="sub"><i>2015 — January 2018</i></div>
+            <br>
+            <div class="tab">Highlighted Skills</div>
+            <span class="skills highlighted">Mandarin <i>(native)</i></span> <span class="skills highlighted">English <i>(fluent)</i></span>
+        </div>
+        <br><br>
+        
+        <span class="tab">Events</span><br>
+        <!--Draft-->
+        <div class="card ex">
+            <div id="link"><i class="fas fa-link"></i></div>
+            <b id="cardtitle">Event General Coordinator</b><br>
+            <div class="sub">@NTHU FLL Senior Play of 2018</div>
+            <br>
+            <div class="tab">Highlighted Skills</div>
+            <span class="skills highlighted">Event Planning</span> 
+            <span class="skills highlighted">Video Editing</span><br>
+            <span class="skills">Photography</span> 
+        </div>
+        <div class="card ex">
+            <div id="link"><i class="fas fa-link"></i></div>
+            <b id="cardtitle">Director of Promotion Team</b><br>
+            <div class="sub">@NTHU FLL Student Association</div>
+            <br>
+            <div class="tab">Highlighted Skills</div>
+            <span class="skills highlighted">Graphic Design</span> 
+            <span class="skills highlighted">Video Editing</span>
+            <br>
+            <span class="skills">Copywriting</span> 
+            <span class="skills">Photography</span> 
+        </div>
+        <div class="card ex">
+            <div id="link"><i class="fas fa-link"></i></div>
+            <b id="cardtitle">Director of Internet Publicity Section</b><br>
+            <div class="sub">@NTHU FLL Camp</div>
+            <br>
+            <div class="tab">Highlighted Skills</div>
+            <span class="skills highlighted">Graphic Design</span>  
+            <span class="skills highlighted">Video Editing</span> 
+            <br>
+            <span class="skills">Copywriting</span> 
+            <span class="skills">Photography</span>
+        </div>
+        <div class="card ex">
+            <div id="link"><i class="fas fa-link"></i></div>
+            <b id="cardtitle">Director of Artistic Design Team</b><br>
+            <div class="sub">@Yue-han Award in Literature</div>
+            <div class="sub"><i>Held by Department of Chinese Literature</i></div>
+            <br>
+            <div class="tab">Highlighted Skills</div>
+            <span class="skills highlighted">Event Planning</span> 
+            <span class="skills highlighted">Graphic Design</span>
+            <br>
+            <span class="skills highlighted">Video Editing</span> 
+            <span class="skills highlighted">HTML/CSS/JavaScript</span><br>
+            <span class="skills">Copywriting</span>
+        </div>
+        <span class="tabbie">(*NTHU FLL stands for Department of Foreign Langugaes and Literature of National Tsing Hua University)</span>
+        <br><br>
+
+        <span class="tab">Projects</span><br>
+        <div class="card pro">
+            <div id="link"><i class="fas fa-link"></i></div>
+            <b id="cardtitle">Loyiworks</b><br>
+        </div>
+        <a class="cardlink" href="http://yuehan29.github.io">
+            <div class="card pro sp">
+                <div id="link"><i class="fas fa-link"></i></div>
+                <b id="cardtitle">Official Website</b><br>
+                <div class="sub twink">29th Yuehan Award in Literature</div>
+            </div>
+        </a>
+        <span class="tabbie">Open Source</span><br>
+        <a class="cardlink" href="https://github.com/loyihsu">    
+            <div class="card pro sp">
+                <div id="link"><i class="fas fa-link"></i></div>
+                <b id="cardtitle">loyihsu</b><br>
+                <div class="sub twink">@GitHub</div>
+            </div>
+        </a>
+        <a class="cardlink" href="https://github.com/loyihsu/Data-Structures-in-Swift">
+            <div class="card pro sp">
+                <div id="link"><i class="fas fa-link"></i></div>
+                <b id="cardtitle">Data Structure in Swift</b><br>
+                <div class="sub twink">@GitHub</div>
+            </div>
+        </a>
+        <span class="tabbie">Term Project</span><br>
+        <a class="cardlink" href="https://github.com/loyihsu/WebApplicationDevelopment-FinalProject">
+            <div class="card pro sp">
+               <div id="link"><i class="fas fa-link"></i></div>
+               <b id="cardtitle">Final Project</b><br>
+               <div class="sub twink">Basic Linguistic Web Application Development</div>
+               <div class="sub twink">@GitHub</div>
+            </div>
+        </a>
+        <br><br>
+    </div>
+    <br><br>
+    <div id="contacts" class="container">
+        <h1>Contact</h1>
+        <h2>Open to remote jobs,<br>freelance cases,<br>and anything you have to offer.<br><br>Interested?</h2>
+
+        <a href="https://www.instagram.com/loyiworks/"><i class="fab fa-instagram twink-contact"></i></a> 
+        <a href="https://twitter.com/loyihsu"><i class="fab fa-twitter twink-contact"></i></a> 
+        <a href="https://www.linkedin.com/in/yu-sung-hsu-14977bb6/"><i class="fab fa-linkedin-in twink-contact"></i></i></a><br>
+        <a href="mailto:loyiworks@gmail.com"><i class="far fa-envelope twink-contact"></i></a>
+        <a href="https://www.upwork.com/freelancers/~01d8b5fb4f10195652"><i class="fas fa-link twink-contact"></i></a>
+        <a href="https://medium.com/@loyiyusunghsu"><i class="fab fa-medium-m twink-contact"></i></a>
+
+        <div id="info" class="container" style="padding: 32px;">
+            <div id="ic-site"></div>
+            <br>
+            <b>Yu-Sung Hsu</b><br>
+            Made with lots of codes and time by me.<br><br>
+            <br><br>
+        </div>
     </div>
 </body>
 </html>
