@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    background-color: #ecf0f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
