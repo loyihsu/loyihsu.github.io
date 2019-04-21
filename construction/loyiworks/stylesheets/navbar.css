@@ -23,24 +23,27 @@ li a {
     padding: 14px 25px;
     text-decoration: none;
     
-    color: #434343;
+    color: #373C38;
     
     transition: color 0.25s;
     -webkit-transition: color 0.25s;
 }
 
 li a:hover:not(.active) {
-    color: gray;
+    color: #373C38;
 }
 
 li a.active {
     pointer-events: none;
     color: #2d4051;
-    
 }
 
 li a.title {
     padding: 14px 25px 14px 75px;
     pointer-events: none;
     color: #2d4051;
+}
+
+li a.active {
+    color: black;
 }
