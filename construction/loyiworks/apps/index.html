@@ -15,13 +15,16 @@
         <!-- - Stylesheets -->
         <!-- Custom -->
         <link rel="stylesheet" type="text/css" href="../stylesheets/navbar.css">
-            <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+        <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+        <link rel="stylesheet" type="text/css" href="../stylesheets/responsive.css">
         <!-- Third Party -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <script src="../javascript/navbar.js"></script>
     </head>
     <body>
         <ul>
-            <li><a class="title">Loyiworks</a></li>
+            <li><a class="title" onclick="showMenu()">Loyiworks<i style="float:right;" id="icbar" class="fas fa-bars"></i></a></li>
             <div id="menu">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="#" class="active">Apps</a></li>
