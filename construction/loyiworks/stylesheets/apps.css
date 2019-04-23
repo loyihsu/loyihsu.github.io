@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+.appicon {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.appicon.chooser {
+    background: url(../img/chooser.svg) no-repeat;
+}
+
+.appicon.budget {
+    background: url(../img/budget.svg) no-repeat;
+}
+
+.appicon.setup {
+    background-position: center;
+    background-color: #ecf0f1;
+    background-size: 60% 60%;
+    
+    transition: background-color 0.5s;
+}
+
+.appicon.setup:hover {
+    background-color: #e2e2e2;
+}
+
+.appicon.setup:hover .appname {
+    opacity: 1;
+}
