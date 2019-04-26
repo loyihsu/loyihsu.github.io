@@ -18,6 +18,14 @@ body {
     background: url(../img/budget.svg) no-repeat;
 }
 
+.appicon.wc {
+    background: url(../img/wc.svg) no-repeat;
+}
+
+.appicon.ab {
+    background: url(../img/1a2b.svg) no-repeat;
+}
+
 .appicon.setup {
     background-position: center;
     background-color: #ecf0f1;
@@ -27,9 +35,5 @@ body {
 }
 
 .appicon.setup:hover {
-    background-color: #e2e2e2;
-}
-
-.appicon.setup:hover .appname {
-    opacity: 1;
+    background-color: #bbbbbb;
 }

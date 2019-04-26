@@ -1,0 +1,22 @@
+.appicon.gf {
+    background: url(../img/gf.svg) no-repeat;
+}
+
+.appicon.gf.sec {
+    background: url(../img/gfsec.svg) no-repeat;
+    background-color: #6b6b6b;
+}
+
+.appicon.gf.additional {
+    background-size: 100% 100%;
+    background-position-y: 35px;
+}
+
+.appicon.gf.en {
+    background-color: #74566b;
+}
+
+.appicon.gf.en:hover {
+    background-color: #9c7591;
+}
+
