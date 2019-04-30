@@ -4,6 +4,7 @@
         padding: 14px 25px;
         pointer-events: all;
     }
+
     #menu {
         display: none;
     }
@@ -12,12 +13,12 @@
     }
 
     #logoArea {
-        width: 100%;
+        width: 95%;
     }
-
+    
     .logo.huge {
-        width: auto;
-        height: 30%;
+        width: 90%;
+        max-height: 200px;
         max-width: 600px;   
     }
 }
