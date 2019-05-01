@@ -1,5 +1,5 @@
 /* Basic Cards */
-.card {
+.cards {
     cursor: default;
     width: auto;
     max-width: 550px;
@@ -13,39 +13,39 @@
     box-shadow: 0 0 2px 2px rgba(189, 192, 186, 0.2);
 }
 
-.card.sp {
+.cards.sp {
     transition: all 0.4s ease-in-out;
 }
 
-.card.sp:hover {
+.cards.sp:hover {
     cursor: pointer;
     border: 1px solid rgba(79, 79, 72, 0.3);
     box-shadow: 0 0 2px 2px rgba(79, 79, 72, 0.3);
 }
 
-.card.sp #cardtitle {
+.cards.sp #cardtitle {
     color: #1c1c1c;
     transition: color 0.4s ease-in-out;
 }
 
-.card.sp:hover #cardtitle {
+.cards.sp:hover #cardtitle {
     color: #4F4F48;
 }
 
-.card.sp .sub.twink {
+.cards.sp .sub.twink {
     transition: color 0.4s ease-in-out;
 }
 
-.card.sp:hover .sub.twink {
+.cards.sp:hover .sub.twink {
     color: #4F4F48;
 }
 
 /* fa-link */
-.card .fa-link {
+.cards .fa-link {
     display: none;
 }
 
-.card.sp .fa-link {
+.cards.sp .fa-link {
     display: inline-block;
     color: white;
     background-color: #1c1c1c;
@@ -58,17 +58,17 @@
     transition: background-color 0.4s ease-in-out;
 }
 
-.card.sp:hover .fa-link {
+.cards.sp:hover .fa-link {
     background-color: #4f4f48;
 }
 
 /* - Educational Cards */
-.card.ed {
+.cards.ed {
     padding-top: 0px;
 }
 
 /* Logo */
-.card.ed #logo {
+.cards.ed #logo {
     width: 150px;
     height: auto;    
     background-color:white;
@@ -81,17 +81,17 @@
     transition: box-shadow 0.55s ease-in-out;
 }
 
-.card.ed #logo:hover {
+.cards.ed #logo:hover {
     box-shadow: 0 0 2px 2px rgba(127, 16, 132, 0.4);
 }
 
 /* - Experience Card */
-.card.ex {
+.cards.ex {
     margin-bottom: 9px;
 }
 
 /* - Project Cards */
-.card.pro {
+.cards.pro {
     margin-bottom: 6px;    
 }
 
