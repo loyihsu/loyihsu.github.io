@@ -45,3 +45,18 @@ body {
     color: #373C38;
     font-size: 9pt;
 }
+
+.endtext {
+    transition: all 0.4s ease-in-out;
+    color: black;
+    text-decoration: none;
+}
+
+.endtext:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.endtext:hover {
+    color: gray;
+}

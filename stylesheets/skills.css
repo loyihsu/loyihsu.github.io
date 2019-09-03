@@ -12,3 +12,10 @@
     background-color: #b9a3a3;
 }
 
+.language {
+    background-color: #005272;
+    color: #FFFFFB;
+    border-radius: 25px;
+    font-size: 10.5pt;
+    padding: 2px 11px;
+}
