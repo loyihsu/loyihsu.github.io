@@ -12,13 +12,14 @@
     background: url(../img/ic.svg) no-repeat;
     background-size: 100% 100%;
 
-    transition: all 0.25s ease-in-out;
+    transition: all 0.55s ease-in-out;
 }
 
 #ic-site:hover {
     background-color: gold;
     border-color: gold;
     box-shadow: 0 0 5px 5px rgba(255, 183, 0, 0.4);
+    transform: scale(1.1);
 }
 
 /* Tiny Icon */

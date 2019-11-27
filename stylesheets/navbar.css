@@ -17,6 +17,8 @@ ul {
     background-color: var(--itemColor);
     z-index: 1;
     font-size: 11pt;
+    padding-top: 6px;
+    padding-block: 6px;
 }
 
 li {
