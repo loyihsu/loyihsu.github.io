@@ -3,13 +3,14 @@
 #hello {
     cursor: default;
     width: 95%;
-    max-width: 1300px;
-    background: url(../img/bg.svg) no-repeat top right;
+    max-width: 1800px;
+    background: url(../img/ic.svg) no-repeat;
+    background-size: 120%;
     margin: auto;
 
     color: #1C1C1C;
     width: auto;
-    height: 88%;
+    height: 110%;
 
     line-height: 150%;
 

@@ -1,17 +1,17 @@
 /* Site Icon */
 
 #ic-site {
-     width: 95px;
-    height: 95px;
-
     margin: auto;
+    width: 95px;
+    height: 95px;
 
     border-radius: 100px;
     border: 3.5px solid black;
 
     background: url(../img/ic.svg) no-repeat;
-    background-size: 100% 100%;
-
+    background-size: 155% 155%;
+    background-position: center;
+    
     transition: all 0.55s ease-in-out;
 }
 
@@ -36,7 +36,8 @@
     border: 10px solid black;
 
     background: url(../img/ic.svg) no-repeat;
-    background-size: 100% 100%;
+    background-size: 155% 155%;
+    background-position: center;
     
     display: none;
 }
