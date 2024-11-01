@@ -1,0 +1,15 @@
+{
+  "originHash" : "eb2f3271a6b060ab583754e9c3ae5469881e22994797d6858c4fac6c16504bf1",
+  "pins" : [
+    {
+      "identity" : "plot",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JohnSundell/Plot",
+      "state" : {
+        "revision" : "271926b4413fe868739d99f5eadcf2bd6cd62fb8",
+        "version" : "0.14.0"
+      }
+    }
+  ],
+  "version" : 3
+}
