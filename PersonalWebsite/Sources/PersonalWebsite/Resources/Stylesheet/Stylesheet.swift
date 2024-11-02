@@ -33,13 +33,13 @@ enum Stylesheet: String, ResourceType {
 extension Node where Context == HTML.HeadContext {
     static func styles() -> Node {
         .group([
-            .style(Stylesheet.cards.path()),
-            .style(Stylesheet.icons.path()),
-            .style(Stylesheet.navbar.path()),
-            .style(Stylesheet.site.path()),
-            .style(Stylesheet.skills.path()),
-            .style(Stylesheet.views.path()),
-            .style(Stylesheet.responsive.path()),
+            .stylesheet(Stylesheet.cards.path()),
+            .stylesheet(Stylesheet.icons.path()),
+            .stylesheet(Stylesheet.navbar.path()),
+            .stylesheet(Stylesheet.site.path()),
+            .stylesheet(Stylesheet.skills.path()),
+            .stylesheet(Stylesheet.views.path()),
+            .stylesheet(Stylesheet.responsive.path()),
         ])
     }
 }
