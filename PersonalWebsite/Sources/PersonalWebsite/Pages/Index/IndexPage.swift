@@ -22,3 +22,9 @@ struct IndexPage: Page {
         }
     }
 }
+
+extension Router {
+    var index: String {
+        IndexPage.filenameWithExtension()
+    }
+}
