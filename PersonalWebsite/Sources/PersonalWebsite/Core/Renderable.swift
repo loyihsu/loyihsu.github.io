@@ -11,4 +11,8 @@ protocol Renderable {
     func render() -> String
 }
 
-extension HTML: Renderable {}
+extension HTML: Renderable {
+    func render() -> String {
+        self.render(indentedBy: .spaces(4))
+    }
+}
