@@ -15,7 +15,17 @@ struct IndexPage: Page {
     var content: some Renderable {
         HTML(
             head: [
-                .title("Hello world"),
+                .viewport(.accordingToDevice),
+                .meta(.charset(.utf8)),
+                .appleMobileWebAppCapable(true),
+
+                .websiteTitle(Config.pageTitle),
+                .description(Config.description),
+                .socialImageLink(Asset.previewImage.path()),
+                .appleTouchIcon(Asset.touchIcon.path()),
+
+                .styles(),
+                .scripts(),
             ]
         ) {
             H1("Hello world")
