@@ -21,10 +21,14 @@ final class PersonalWebsite {
 
     func render() -> [RenderedPage] {
         self.contents.map {
-            let name = $0.fileName.appending(".html")
+            let name = self.getFileName($0)
             let html = $0.render()
 
             return RenderedPage(fileName: name, html: html)
         }
+    }
+
+    private func getFileName<T: Page>(_ page: T) -> String {
+        T.filenameWithExtension()
     }
 }

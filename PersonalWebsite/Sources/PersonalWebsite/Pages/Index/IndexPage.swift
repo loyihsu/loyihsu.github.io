@@ -8,7 +8,7 @@
 import Plot
 
 struct IndexPage: Page {
-    var fileName: String {
+    static var fileName: String {
         "index"
     }
 
