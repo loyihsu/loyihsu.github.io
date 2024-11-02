@@ -30,7 +30,7 @@ struct IndexPage: Page {
             .body(
                 .heroSection(),
                 .experienceSection(),
-                .contactSection()
+                .contactsSection()
             )
         )
     }

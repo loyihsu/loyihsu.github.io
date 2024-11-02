@@ -16,6 +16,7 @@ enum Stylesheet: String, ResourceType {
     case skills
     case views
     case responsive
+    case contacts
 
     var description: String {
         self.rawValue + ".css"
@@ -40,6 +41,7 @@ extension Node where Context == HTML.HeadContext {
             .stylesheet(Stylesheet.skills.path()),
             .stylesheet(Stylesheet.views.path()),
             .stylesheet(Stylesheet.responsive.path()),
+            .stylesheet(Stylesheet.contacts.path()),
             .link(
                 .rel(.stylesheet),
                 .href("https://use.fontawesome.com/releases/v5.7.0/css/all.css"),
