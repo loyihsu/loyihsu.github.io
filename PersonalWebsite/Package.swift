@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "PersonalWebsite",
+    platforms: [
+        .macOS(.v13),
+    ],
     products: [
         .executable(
             name: "PersonalWebsite",
