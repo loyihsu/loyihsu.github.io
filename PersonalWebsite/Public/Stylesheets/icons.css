@@ -1,0 +1,38 @@
+/* Site Icon */
+
+#ic-site {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+
+    background: url(../img/ic.svg) no-repeat;
+    background-size: 155% 155%;
+    background-position: center;
+    
+    transition: all 0.55s ease-in-out;
+}
+
+#ic-site:hover {
+    transform: scale(1.1);
+}
+
+/* Tiny Icon */
+
+#ic-tiny {
+    width: 250px;
+    height: 250px;
+    
+    position: relative;
+    margin: auto;
+    transform: translateY(-30%);
+
+    border-radius: 300px;
+
+    background: url(../img/ic.svg) no-repeat;
+    background-size: 155% 155%;
+    background-position: center;
+    
+    display: none;
+}

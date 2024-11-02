@@ -1,0 +1,113 @@
+/* Hello View */
+
+#hello {
+    cursor: default;
+    width: 95%;
+    max-width: 1800px;
+    background: url(../img/ic.svg) no-repeat;
+    background-size: 120%;
+    margin: auto;
+
+    color: #1C1C1C;
+    width: auto;
+    height: 110%;
+
+    line-height: 150%;
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#hi {
+    font-size: 100px;
+}
+
+#hiMsg {
+    background-color: #e4e9ee;
+    
+    transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+    
+    transition-property: text-shadow, color;
+    -webkit-transition-property: text-shadow, color;
+}
+
+#hiMsg:hover {  
+    color: gold;
+    text-shadow: 0 0 20px goldenrod,
+                 0 0 30px white,
+                 0 0 40px gold,
+                 0 0 60px white;
+}
+
+#otherMsg {
+    background-color: #e4e9ee;
+}
+
+#helloMsg {
+    max-width: 600px;
+    width: auto;
+    position: relative;
+    top: 55%;
+    left: 18.5%;
+    transform: translateY(-50%);
+}
+
+#swipe {
+    cursor: default;
+
+    text-align: center;
+    font-size: 12pt;
+    height:10%;
+    padding-top: 20px; 
+
+    -webkit-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* About View */
+#about {
+    color: #1C1C1C;
+}
+
+/* Contact View */
+.twink-contact {
+    font-size:24px;
+    width: 24px;
+    height:24px;
+
+    padding: 14px;
+    margin: 8px;
+    
+    border: 4px solid black;
+    border-radius: 100px;
+
+    cursor: pointer;
+
+    transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+}
+
+.twink-contact:hover {
+    /*opacity: 0.35;*/
+
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+#contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+#contacts a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#contacts a:visited {
+    text-decoration: none;
+    color: black;
+}
