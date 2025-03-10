@@ -37,15 +37,6 @@
     <script src="javascript/scroll.js"></script>
 </head>   
 <body>
-    <ul>
-        <li><a class="title" onclick="showMenu()">Yu-Sung Hsu<i style="float:right;" id="icbar" class="fas fa-bars"></i></a></li>
-        <div id="menu">
-            <li><a id="top" class="active" href="#l1" onclick="menuClicked(1)">Top</a></li>
-            <li><a id="ab" href="#l2" onclick="menuClicked(2)">About</a></li>
-            <li><a id="pr" href="#l3" onclick="menuClicked(3)">Experience</a></li>
-            <li><a id="co" href="#l4" onclick="menuClicked(4)">Contact</a></li>
-        </div>
-    </ul>
     <div id="hello">
         <div id="helloMsg">
             <div id="ic-tiny"></div>
@@ -54,154 +45,12 @@
             </div
             ><br />
             <span id="otherMsg">I am Yu-Sung Hsu, a.k.a. Loyi Hsu.
-                <br /><br />
-                I am a Taiwan-based mobile & web app developer.
+                <br/>
+                I am a Taiwan-based mobile app developer.
             </span>
         </div>
     </div>
 
-    <div id="swipe">
-        Learn more<br />↓
-    </div>
-
-    <div id="about" class="container">
-        <h1 style="padding-bottom: 12pt;">About</h1>
-        <div class="tab">Summary</div>
-        As an individual app developer, I make apps that I would love to use.
-
-        <div class="tab" style="padding-top: 24pt;">Skills</div>
-        <span class="skills highlighted">Mobile App Development</span><br />
-        <span class="skills highlighted">Web App Development</span> 
-        <span class="skills highlighted">Graphic Design</span><br />
-
-        <div class="tabbie">Programming Languages and Frameworks</div>
-        <span class="skills highlighted">Swift</span> 
-        <span class="skills highlighted">SwiftUI</span> 
-        <span class="skills highlighted frameworks">Vapor</span> 
-        <span class="skills highlighted frameworks">UIKit</span>
-        <span class="skills frameworks">Bootstrap</span><br />
-        <span class="skills highlighted">HTML</span> 
-        <span class="skills highlighted">CSS</span>
-        <span class="skills highlighted">JavaScript</span>
-        <span class="skills highlighted frameworks">Jekyll</span><br />
-        <span class="skills">Java</span>
-        <span class="skills">C / C++</span>
-        <span class="skills">Python</span>
-        <span class="skills frameworks">Django</span> 
-        <span class="skills frameworks">MeteorJS</span>
-            
-        <div class="tabbie">Tools</div>
-        <span class="skills highlighted">Xcode</span> 
-        <span class="skills">IntelliJ IDEA</span>
-        <span class="skills highlighted">Pixelmator Pro</span><br />
-        <span class="skills highlighted">VSCode</span>
-        <span class="skills">Vim</span>
-        <span class="skills">Final Cut Pro</span>
-        <span class="skills">Logic Pro</span>
-
-        <div class="tabbie">Others</div>
-        <span class="skills highlighted">Event Planning</span>
-        <span class="skills highlighted">Video Editing</span>
-
-        <div class="tabbie">Natural Languages</div>
-        <span class="skills highlighted">Mandarin</span> 
-        <span class="skills highlighted">English</span><br />
-        <span class="skills">Japanese</span> 
-        <span class="skills">Spanish</span>
-
-        <br /><br />
-
-        <span class="tabbie">* Skill tags</span><br />
-        <span class="skills highlighted">Highlighted Skills</span> <span class="skills">Skills</span> <span class="skills frameworks">Frameworks</span><br />
-
-        <div class="tab" style="padding-top: 24pt; padding-bottom: 24pt;">Educational Background</div>
-        <div class="cards ed" style="margin-bottom: 24pt;">
-            <img src="img/uofg.jpg" id="logo-gla"><br />
-            <b>University of Glasgow</b><br />
-            MSc in Software Development
-            <div class="sub twink"><i>2021 — 2022</i></div>
-            <div class="tab">Skills</div>
-            <span class="skills highlighted">Java</span>
-        </div>
-
-        <div class="cards ed" style="margin-bottom: 12pt;">
-            <img src="img/nthu.jpg" id="logo-nthu"><br />
-            <b>National Tsing Hua University</b><br />
-            Bachelor of Arts<br />in Foreign Languages and Literature
-            <div class="sub"><i>with a minor in Computer Science</i></div>
-            <div class="sub twink"><i>2014 — 2018</i></div>
-            <div class="tab">Skills</div>
-            <span class="skills highlighted">MeteorJS</span>
-            <span class="skills">C / C++</span> 
-            <br />
-            <span class="skills">Linguistics</span> 
-            <span class="skills">Literature</span>
-        </div>
-    </div>
-    <br /><br />
-    <div id="projects" class="container" style="padding-bottom: 24pt;">
-        <h1>Experience</h1>
-        <span class="tab">Work</span><br />
-        <div class="cards ex" style="margin-top:5pt;">
-            <div id="link"><i class="fas fa-link"></i></div>
-            <b id="cardtitle">Senior iOS App Developer</b><br />
-            <div class="sub">@KKday</div>
-            <div class="sub twink"><i>2022 — <b><u>2024</u></b></i></div>
-            <span class="skills highlighted">Mobile App Development</span><br />
-            <span class="skills highlighted">Swift</span>
-            <span class="skills highlighted">Xcode</span> 
-            <span class="skills highlighted">iOS</span> 
-            <span class="skills frameworks">UIKit</span> 
-        </div>
-        <span class="tabbie">YouTube Channel</span><br />
-        <a class="cardlink" href="https://channels.loyi.dev/codes" target="_blank">
-            <div class="cards pro sp">
-               <div id="link"><i class="fas fa-link"></i></div>
-               <b id="cardtitle">loyiCodes</b><br />
-               <div class="sub twink">Where I make programming tutorials.</div>
-               <div class="sub twink"><i>@YouTube</i></div>
-               <span class="language">Chinese</span>
-            </div>
-        </a>
-        
-        <span class="tab">Projects</span><br />
-        <a class="cardlink" href="https://codes.loyi.dev" target="_blank">
-            <div class="cards pro sp">
-                <div id="link"><i class="fas fa-link"></i></div>
-                <b id="cardtitle">Coding Stuff</b><br />
-                <div class="sub twink">Loyi talks about coding stuff here.</div><br />
-                <span class="language">English</span> <span class="skills highlighted">Jekyll</span>
-            </div>
-        </a>
-        <span class="tabbie">Open Source</span><br />
-        <a class="cardlink" href="https://github.com/loyihsu/photogif-mac" target="_blank">
-            <div class="cards pro sp">
-                <div id="link"><i class="fas fa-link"></i></div>
-                <b id="cardtitle">PhotoGIF</b><br />
-                <div class="sub twink">A photo to GIF tool made for macOS with Swift. <br /><i>@GitHub</i></div>
-                <span class="skills highlighted">Mobile App Development</span> 
-            </div>
-        </a>
-        <a class="cardlink" href="https://github.com/loyihsu/fun-with-leetcode-in-swift" target="_blank">
-            <div class="cards pro sp">
-                <div id="link"><i class="fas fa-link"></i></div>
-                <b id="cardtitle">Fun with Leetcode in Swift</b><br />
-                <div class="sub twink">Everything I played and passed on Leetcode. <br /><i>@GitHub</i></div>
-                <span class="skills highlighted">Swift</span> 
-            </div>
-        </a>
-        <span class="tabbie">Term Project</span><br />
-        <a class="cardlink" href="https://github.com/loyihsu/WebApplicationDevelopment-FinalProject" target="_blank">
-            <div class="cards pro sp">
-               <div id="link"><i class="fas fa-link"></i></div>
-               <b id="cardtitle">Final Project - ELIZA Chatbot</b><br />
-               <div class="sub twink">Basic Linguistic Web Application Development</div>
-               <div class="sub twink"><i>@GitHub</i></div>
-               <span class="skills highlighted">Web App Development</span> 
-            </div>
-        </a>
-        <br />
-    </div>
     <div id="contacts" class="container">
         <h1>Contact</h1>
         <a href="https://www.instagram.com/loyihsu/" target="_blank"><i class="fab fa-instagram twink-contact"></i></a> 
@@ -210,12 +59,6 @@
         <a href="mailto:works@loyi.dev"><i class="far fa-envelope twink-contact"></i></a>
         <a href="https://www.linkedin.com/in/yu-sung-loyi-hsu-14977bb6/"><i class="fab fa-linkedin-in twink-contact" target="_blank"></i></a>
     </div>
-    <div id="info" class="container" style="padding: 32px;">
-        <div id="ic-site"></div>
-        <br />
-        <b>Yu-Sung Hsu</b><br />
-        Made with lots of codes and time.<br /><br />
-        <a href="https://github.com/loyihsu/loyihsu.github.io" class="sub endtext">source code</a>
-    </div>
+    <br/><br/>
 </body>
 </html>

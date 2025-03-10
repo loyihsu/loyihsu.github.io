@@ -24,8 +24,6 @@
 }
 
 #hiMsg {
-    background-color: #e4e9ee;
-    
     transition: all 0.55s ease-in-out;
     -webkit-transition: all 0.55s ease-in-out;
     
@@ -41,16 +39,12 @@
                  0 0 60px white;
 }
 
-#otherMsg {
-    background-color: #e4e9ee;
-}
-
 #helloMsg {
     max-width: 600px;
     width: auto;
     position: relative;
     top: 55%;
-    left: 18.5%;
+    left: 14%;
     transform: translateY(-50%);
 }
 
@@ -90,8 +84,6 @@
 }
 
 .twink-contact:hover {
-    /*opacity: 0.35;*/
-
     background-color: black;
     color: white;
     transform: scale(1.1);

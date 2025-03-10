@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px), screen and (max-height: 700px) {
+@media screen and (max-width: 2048px), screen and (max-height: 700px) {
     #ic-tiny {
         display: block;
     }
@@ -11,7 +11,7 @@
     }
 
     #hi {
-        font-size: 90px;
+        font-size: 60px;
     }
 
     #helloMsg {
